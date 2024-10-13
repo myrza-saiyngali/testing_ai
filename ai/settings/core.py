@@ -93,7 +93,7 @@ MIDDLEWARE = [
 if DEBUG:
     MIDDLEWARE.append('silk.middleware.SilkyMiddleware')
 
-ROOT_URLCONF = 'academy.urls'
+ROOT_URLCONF = 'ai.urls'
 
 TEMPLATES = [
     {
@@ -111,7 +111,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'academy.wsgi.application'
+WSGI_APPLICATION = 'ai.wsgi.application'
 
 
 # Database
