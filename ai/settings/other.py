@@ -1,5 +1,2 @@
 from .core import env
 
-GPT_API_KEY = env('GPT_API_KEY')
-GPT_MODEL_ENGINE = env('GPT_MODEL_ENGINE')
-DALLE_MODEL_ENGINE = env('DALLE_MODEL_ENGINE')
