@@ -79,6 +79,10 @@ INSTALLED_APPS = [
 if DEBUG:
     INSTALLED_APPS.append('silk')
 
+GPT_API_KEY = "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"
+GPT_MODEL_ENGINE = 'gpt-4o'
+DALLE_MODEL_ENGINE = 'dall-e-3'
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
