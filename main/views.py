@@ -51,7 +51,7 @@ from .utils import (
     check_user_video_credits,
     decrement_user_video_credits,
 )
-from google_tasks import create_update_user_onboarding_task 
+from .google_tasks import create_update_user_onboarding_task 
 
 DUMMY_GENERATION_DELAY = 3
 
